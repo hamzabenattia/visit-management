@@ -1,0 +1,103 @@
+ 
+  .doc{
+  h5 {
+    color: #7ebc3a;
+    font-weight: bold;
+  }
+  
+  .logo {
+    width: 210px;
+    height: 54px;
+  }
+  
+  .btn {
+    background-color: #7ebc3a;
+   color: #FFF7F1;
+ 
+  }
+  .btn_ajout{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+    display: flex;
+   justify-content: center;
+  }
+ .radiobtn{
+ margin-right:10px;
+ 
+ }
+ .vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 2800vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0A1727;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+
+.page-content {
+  width: calc(100% - 17rem);
+  margin-left: 17rem;
+  transition: all 0.4s;
+  background-color: #F0F8EE; 
+  height: 100%;
+   overflow: auto; 
+}
+
+#sidebar.active {
+  margin-left: -17rem;
+}
+
+#content.active {
+  width: 100%;
+  margin: 0;
+}
+
+ 
+.nav-link:hover {
+  background: #f3f2f2;
+}
+
+.text-primary {
+  color: #7579e7 !important;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+      margin-left: -17rem;
+  }
+
+  #sidebar.active {
+      margin-left: 0;
+  }
+
+  #content {
+      width: 100%;
+      margin: 0;
+  }
+
+  #content.active {
+      margin-left: 17rem;
+      width: calc(100% - 17rem);
+  }
+  .tableau{
+    width: calc(100% - 17rem);
+  }
+}
+ 
+ td{
+  border: 1px solid rgb(138, 138, 138);
+  padding-left: 15px;
+ }
+ .btntdown{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+ 
+ }
+ .icon-menu{
+  width: 28px;
+}}
